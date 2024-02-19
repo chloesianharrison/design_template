@@ -1,0 +1,189 @@
+* {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #FFF4E0;
+    color: #4D4D4D;
+    font-family: "Asap", sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:visited {
+    color:#B46060;
+}
+a:hover {
+    font-size: 18px;
+}
+nav {
+    position:fixed;
+    text-align: justify;
+    top: -20px;
+    margin-top: 20px;
+    padding-bottom: -40px;
+    width: 100%;
+    z-index: 10;
+    max-height: 100px;
+    padding-right: 80px;
+}
+nav ul {
+    text-align:justify;
+    list-style-type: none;
+    padding-left: 0px;
+
+}
+nav ul li {
+    display: inline-block;
+    width: 40px;
+    text-align:justify;
+    margin-left: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.logo {
+    margin-left: 110px;
+    margin-top: 110px;
+}
+.color {
+    margin-top: 100px;
+    line-height: auto;
+}
+.color h2 {
+    margin-bottom: 20px;
+}
+.color_marker {
+    background-color: #B46060;
+    width: 180px;
+    height: 10px;
+    margin-bottom: 40px;
+}
+.color .primary {
+    background-color: #B46060;
+    color:#FFF4E0;
+    border: 2px solid #B46060;
+    margin-top: 50px;
+}
+.color .primary h4, .color .primary .subtitle {
+    color:#FFF4E0;
+    background-color: #B46060;
+}
+.color .secondary {
+    background-color: #FFBF9B;
+    color: #4D4D4D;
+    border: 2px solid #FFBF9B;
+}
+.color .secondary h4, .color .secondary .subtitle {
+    background-color: #FFBF9B;
+    color: #4D4D4D;
+}
+.color .tertiary {
+    background-color: #4D4D4D;
+    color:#FFF4E0;
+    border: 2px solid #4D4D4D;
+}
+.color .tertiary h4, .color .tertiary .subtitle {
+    background-color: #4D4D4D;
+    color:#FFF4E0;
+}
+.background {
+    background-color: #FFF4E0;
+    color: #4D4D4D;
+}
+#typography_header {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.typography_marker {
+    background-color: #B46060;
+    width: 400px;
+    height: 10px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-family: "Asap";
+    font-weight: 700;
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.body {
+    font-size: 20px;
+    font-weight: 400;
+}
+.body_small {
+    font-size: 14px;
+    font-weight: 400;
+}
+.subtitle {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+.label {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.button_type {
+    font-size: 16px;
+    font-weight: 600;
+}
+.caption {
+    font-size: 12px;
+    font-weight: 400;
+}
+.overline {
+    text-transform: uppercase;
+    font-family: "Asap Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#buttons_header {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.button_marker {
+    background-color: #B46060;
+    width: 300px;
+    height: 10px;
+    margin-bottom: 40px;
+}
+
+.buttons ul{
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+buttons ul li {
+    
+    width: 40px;
+}
